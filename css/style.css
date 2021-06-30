@@ -1,0 +1,111 @@
+.wrap {
+  width: 1140px;
+  margin: 0 auto;
+}
+button {
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+.title {
+  text-align: center;
+}
+.search {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.search .search__field {
+  width: 400px;
+  height: 40px;
+  padding: 5px 10px;
+}
+.search .search__button {
+  height: 40px;
+  background-color: greenyellow;
+}
+.table {
+  text-align: center;
+}
+.table input {
+  width: 100%;
+  height: 100%;
+}
+.table__settings {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.table__tag {
+  width: 20%;
+  background-image: url("../img/ic-down.png");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position-x: 90%;
+  background-position-y: center;
+  cursor: pointer;
+}
+.table__column {
+  width: 20%;
+}
+.table__line:hover {
+  cursor: pointer;
+  background-color: ghostwhite;
+}
+.table__adding {
+  width: 100%;
+}
+.table__adding input {
+  margin-left: 200%;
+  margin-bottom: 10px;
+}
+.table__adding p {
+  width: 500%;
+}
+.loading {
+  width: 500%;
+  text-align: center;
+}
+.loading__logo {
+  -webkit-animation: rotate-center 1.5s linear infinite both;
+  animation: rotate-center 1.5s linear infinite both;
+}
+.active {
+  background-image: url("../img/ic-up.png");
+}
+.pagination {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.description {
+  background-color: gainsboro;
+  padding: 20px 30px;
+}
+.description textarea {
+  width: 50%;
+  height: 100px;
+}
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=style.css.map */
